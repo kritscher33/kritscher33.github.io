@@ -60,13 +60,13 @@ a:hover small {
 
 .left-column {
   float: left;
-  width: calc(33.33% - 10px); /* 1/3 of the page minus half of the gap */
+  width: calc(33.33%); 
   margin-right: 20px; /* Space between columns */
 }
 
 .right-column {
   float: right;
-  width: calc(66.66% - 10px); /* Two-thirds of the page minus half of the gap */
+  width: calc(66.66% - 20px); /* Two-thirds of the page minus the gap */
 }
 
 footer {
