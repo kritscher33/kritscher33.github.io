@@ -59,19 +59,12 @@ a:hover small {
 }
 
 .left-column {
-  width: 300px;
+  width: 33%; /* 1/3 of the page */
   margin-right: 20px; /* Adjust spacing between columns */
 }
 
 .right-column {
   flex: 1; /* Take up remaining space */
-}
-
-img {
-  max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Prevent any default inline display */
-  margin-bottom: 20px; /* Add some spacing below the image */
 }
 
 footer {
