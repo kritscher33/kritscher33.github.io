@@ -61,12 +61,12 @@ a:hover small {
 .left-column {
   float: left;
   width: calc(33%); 
-  margin-right: 20px; /* Space between columns */
+  margin-right: 50px; /* Space between columns */
 }
 
 .right-column {
   float: right;
-  width: calc(67% - 20px); /* Two-thirds of the page minus the gap */
+  width: calc(67% - 50px); /* Two-thirds of the page minus the gap */
   max-height: 400px; /* Set a maximum height for the right column */
   overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
 }
