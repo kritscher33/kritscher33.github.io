@@ -77,15 +77,3 @@ footer {
   color: #fff;
 }
 
-/* Media query for smaller screens */
-@media screen and (max-width: 600px) {
-  .container {
-    flex-direction: column; /* Stack columns vertically */
-  }
-
-  .left-column,
-  .right-column {
-    width: auto; /* Reset column width */
-    margin-right: 0; /* Remove right margin */
-  }
-}
