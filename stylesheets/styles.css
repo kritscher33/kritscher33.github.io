@@ -67,7 +67,7 @@ a:hover small {
 .right-column {
   float: right;
   width: calc(67% - 50px); /* Two-thirds of the page minus the gap */
-  max-height: 1000px; /* Set a maximum height for the right column */
+  max-height: 100vh; /* Set a maximum height for the right column */
   overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
 }
 
