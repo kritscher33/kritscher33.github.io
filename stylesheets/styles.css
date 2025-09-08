@@ -8,7 +8,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
-  margin: 0 0 20px;
+  margin: 40px 0 20px;
 }
 
 p, ul, ol, table, pre, dl {
@@ -67,7 +67,7 @@ a:hover small {
 .right-column {
   float: right;
   width: calc(67% - 50px); /* Two-thirds of the page minus the gap */
-  max-height: 400px; /* Set a maximum height for the right column */
+  max-height: 1000px; /* Set a maximum height for the right column */
   overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
 }
 
